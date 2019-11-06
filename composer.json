@@ -1,0 +1,20 @@
+{
+    "name": "paravibe/dnslookup",
+    "description": "API layer for WhoisXMLAPI DNS Lookup",
+    "version": "1.0",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Petyurenko",
+            "email": "paravibe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "paravibe\\WhoisXmlApi\\DnsLookup\\": "src/DnsLookup" }
+    }
+}
